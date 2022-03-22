@@ -1,0 +1,243 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "kyo.gdclone.sm",
+    "pixelsRounding": false,
+    "projectUuid": "5c818ad3-3ce0-4f51-b8fd-acad161d3f95",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "gclone_sm",
+    "description": "stereo madness geometry dash with a twist",
+    "author": "kyo",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "E:\\games\\gdclone_sm",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "android-icon-144.png",
+      "android-icon-192": "android-icon-192.png",
+      "android-icon-36": "android-icon-36.png",
+      "android-icon-48": "android-icon-48.png",
+      "android-icon-72": "android-icon-72.png",
+      "android-icon-96": "android-icon-96.png",
+      "desktop-icon-512": "desktop-icon-512.png",
+      "ios-icon-100": "ios-icon-100.png",
+      "ios-icon-1024": "ios-icon-1024.png",
+      "ios-icon-114": "ios-icon-114.png",
+      "ios-icon-120": "ios-icon-120.png",
+      "ios-icon-144": "ios-icon-144.png",
+      "ios-icon-152": "ios-icon-152.png",
+      "ios-icon-167": "ios-icon-167.png",
+      "ios-icon-180": "ios-icon-180.png",
+      "ios-icon-20": "ios-icon-20.png",
+      "ios-icon-29": "ios-icon-29.png",
+      "ios-icon-40": "ios-icon-40.png",
+      "ios-icon-50": "ios-icon-50.png",
+      "ios-icon-57": "ios-icon-57.png",
+      "ios-icon-58": "ios-icon-58.png",
+      "ios-icon-60": "ios-icon-60.png",
+      "ios-icon-72": "ios-icon-72.png",
+      "ios-icon-76": "ios-icon-76.png",
+      "ios-icon-80": "ios-icon-80.png",
+      "ios-icon-87": "ios-icon-87.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "dark",
+      "logoAndProgressFadeInDuration": 0,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 0,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": false
+    },
+    "authorIds": [
+      "BoEAVFkXpONkFKW9BaPtnoz0fAc2"
+    ],
+    "categories": [],
+    "playableDevices": [
+      "keyboard",
+      "gamepad",
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": true,
+        "file": "player.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": true,
+        "file": "spike.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spike.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": true,
+        "file": "block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "block.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": true,
+        "file": "riccardo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "riccardo.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "song.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "song.mp3",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grass.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dirt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dirt.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\block.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/riccardo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\riccardo.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/spike.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\spike.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/dirt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\dirt.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\grass.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "resources/player.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "resources\\player.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "resources/song.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "resources\\song.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/fps"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
